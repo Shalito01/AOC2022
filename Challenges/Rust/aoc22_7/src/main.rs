@@ -29,8 +29,8 @@ impl Config {
 }
 
 fn main() {
-    let mut pwd: String = String::new();
-    let mut cwd: String = String::new();
+    let mut cwd: Vec<String> = Vec::new();
+    let mut dict: Vec<(String, i32)> = Vec::new();
     let args: Vec<String> = env::args().collect();
 
     let config = Config::build(&args).unwrap_or_else(|err| {
@@ -42,7 +42,35 @@ fn main() {
     let file_content = BufReader::new(input);
 
     for line in file_content.lines() {
-        println!("{}",line.unwrap());
+        //println!("{}",line.unwrap());
+        let buffer = line.unwrap();
+        let arg: Vec<&str> = buffer.split(' ').collect();
+        
+        if arg[0] == "$" {
+            if arg[1] == "cd" {
+                if arg[2] == ".." {
+                    cwd.pop();
+                } else {
+                    cwd.push(String::from(arg[2]));
+
+                    let mut flag = true;
+                    for x in dict.iter() {
+                        if x.0 == arg[2] {
+                            flag = false;
+                            break;
+                        }
+                    }
+
+                    if flag {
+                        dict.push((String::from(arg[2]), 0));
+                    }
+                }
+                //dict.push((String::from(arg[2]), 0));
+            }
+        }
     }
 
+    for x in dict {
+        println!("{} {}", x.0, x.1);
+    }
 }

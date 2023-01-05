@@ -20,21 +20,18 @@ public class DaySeven {
             while (fileInput.hasNextLine()) {
                 String[] buffer = fileInput.nextLine().split(" ");
 
-
                 if(buffer[0].equals("$") && buffer[1].equals("cd")) {
                     switch (buffer[2]) {
-                        case "..":
-                            pwd.pop();
-                            break;
-                        case "/":
+                        case ".." -> pwd.pop();
+                        case "/" -> {
                             while (!pwd.peek().equals("/")) {
                                 pwd.pop();
                             }
-                            break;
-                        default:
+                        }
+                        default -> {
                             dirs.putIfAbsent(buffer[2], 0);
                             pwd.push(buffer[2]);
-                            break;
+                        }
                     }
                 } else if (!buffer[0].equals("$") && !buffer[0].equals("dir")) {
                     for (String x: pwd) {
@@ -67,6 +64,5 @@ public class DaySeven {
 
 
 }
-
 
 

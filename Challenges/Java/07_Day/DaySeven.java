@@ -38,8 +38,6 @@ public class DaySeven {
                         dirs.replace(x, dirs.get(x) + Integer.parseInt(buffer[0]));
                     }
                 }
-
-
             }
 
             Integer sum = 0;
@@ -48,21 +46,18 @@ public class DaySeven {
                     sum += i;
                 }
             }
+
             for(String key: dirs.keySet()) {
                 System.out.println(key + ": " + dirs.get(key));
             }
 
             System.out.println(sum);
             fileInput.close();
-
         } catch (Exception e) {
             System.out.println(e.getMessage());
             System.exit(1);
         }
-
     }
-
-
 }
 
 

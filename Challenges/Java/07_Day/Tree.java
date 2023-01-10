@@ -1,18 +1,28 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Tree<T> {
-    private Node<T> root;
+public class DirectoryTree {
+    private class Node {
+        private String name;
+        private int size;
+        private boolean isDir;
+        private ArrayList<Node> Children;
 
-    public Tree(T rootData) {
-        root = new Node<T>();
-        root.data = rootData;
-        root.children = new ArrayList<Node<T>>();
+        public Node(String str, int sz, boolean type) {
+            name = str;
+            size = sz;
+            isDir = type;
+            if(type) {
+                Children = new ArrayList<Node>();
+            }
+        }
     }
 
-    public static class Node<T> {
-        private T data;
-        private Node<T> parent;
-        private List<Node<T>> children;
+    private Node root;
+
+    public DirectoryTree(String name, int size, boolean type) {
+        root = new Node(name, 0, true);
     }
+
+
 }

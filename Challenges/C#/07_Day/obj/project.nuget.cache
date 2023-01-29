@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ku1ktoM5DcmRcuse0cG694taq3ycv5gYxUApOmvK1jY30UhFRO95860FtttWH3fCcLUX2pxCsQZ6cnKoRyjhgw==",
+  "dgSpecHash": "g9TTsE5RxfqVSe/cQMG0Hmy8SGCkJbho260V+iaMVc160oAZ+31xXD6RR5wuTw2pZvY5yzFQ9gvOiWJ5nruAVQ==",
   "success": true,
-  "projectFilePath": "D:\\Github\\AOC2022\\Challenges\\C#\\07_Day\\07_Day.csproj",
+  "projectFilePath": "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/07_Day/07_Day.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/07_Day/07_Day.csproj",
-      "projectName": "07_Day",
-      "projectPath": "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/07_Day/07_Day.csproj",
+      "projectUniqueName": "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/10_Day/10_Day.csproj",
+      "projectName": "10_Day",
+      "projectPath": "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/10_Day/10_Day.csproj",
       "packagesPath": "/Users/daniel/.nuget/packages/",
-      "outputPath": "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/07_Day/obj/",
+      "outputPath": "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/10_Day/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/daniel/.nuget/NuGet/NuGet.Config"

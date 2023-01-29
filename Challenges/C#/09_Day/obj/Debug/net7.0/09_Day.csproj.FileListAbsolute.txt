@@ -1,0 +1,15 @@
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/bin/Debug/net7.0/09_Day
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/bin/Debug/net7.0/09_Day.deps.json
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/bin/Debug/net7.0/09_Day.runtimeconfig.json
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/bin/Debug/net7.0/09_Day.dll
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/bin/Debug/net7.0/09_Day.pdb
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/obj/Debug/net7.0/09_Day.csproj.AssemblyReference.cache
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/obj/Debug/net7.0/09_Day.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/obj/Debug/net7.0/09_Day.AssemblyInfoInputs.cache
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/obj/Debug/net7.0/09_Day.AssemblyInfo.cs
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/obj/Debug/net7.0/09_Day.csproj.CoreCompileInputs.cache
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/obj/Debug/net7.0/09_Day.dll
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/obj/Debug/net7.0/refint/09_Day.dll
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/obj/Debug/net7.0/09_Day.pdb
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/obj/Debug/net7.0/09_Day.genruntimeconfig.cache
+/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/09_Day/obj/Debug/net7.0/ref/09_Day.dll

@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/10_Day/10_Day.csproj": {}
+    "C:\\Users\\dshal\\Documents\\Github\\AOC2022\\Challenges\\C#\\10_Day\\10_Day.csproj": {}
   },
   "projects": {
-    "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/10_Day/10_Day.csproj": {
+    "C:\\Users\\dshal\\Documents\\Github\\AOC2022\\Challenges\\C#\\10_Day\\10_Day.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/10_Day/10_Day.csproj",
+        "projectUniqueName": "C:\\Users\\dshal\\Documents\\Github\\AOC2022\\Challenges\\C#\\10_Day\\10_Day.csproj",
         "projectName": "10_Day",
-        "projectPath": "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/10_Day/10_Day.csproj",
-        "packagesPath": "/Users/daniel/.nuget/packages/",
-        "outputPath": "/Users/daniel/Documents/GitHub/AOC2022/Challenges/C#/10_Day/obj/",
+        "projectPath": "C:\\Users\\dshal\\Documents\\Github\\AOC2022\\Challenges\\C#\\10_Day\\10_Day.csproj",
+        "packagesPath": "C:\\Users\\dshal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dshal\\Documents\\Github\\AOC2022\\Challenges\\C#\\10_Day\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/daniel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dshal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

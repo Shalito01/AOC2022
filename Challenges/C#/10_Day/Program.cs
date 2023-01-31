@@ -20,7 +20,7 @@ int getStrength(int cycle, int reg) {
 string[] lines = File.ReadAllLines("input.txt");
 List<string> CRT = new List<string>();
 int X = 1;
-int cycle = 1;
+int cycle = 0;
 int lock_ck = 0;
 int sum = 0;
 
@@ -34,11 +34,12 @@ foreach (string line in lines)
         if(checkStrength(cycle)) {
             sum += getStrength(cycle, X);
         }
-        if(cycle%40 >= X-1 && cycle%40 <= X+1) {
+        if(cycle%40 == X-1 || cycle%40 == X || cycle%40 == X+1) {
             CRT.Add("#");
         } else {
             CRT.Add(".");
         }
+        Console.WriteLine(cycle %40 + " " + X + " " + CRT.Last());
 
     ++cycle;
     } while(--lock_ck > 0);

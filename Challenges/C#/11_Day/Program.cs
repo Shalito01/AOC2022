@@ -18,14 +18,14 @@ for(int i = 0; i < lines.Count(); i++) {
 
 
 
-for(int i = 0; i < 20; i++) {
+for(int i = 0; i < 10000; i++) {
     foreach(Monkey m in monkeys)
     {
         while(m.items.TryDequeue(out long oldVal))
         {
             m.inspected++;
             long newVal = m.update(oldVal);
-            newVal /= 3;
+            //newVal /= 3;
             monkeys[m.testItem(newVal)].addItem(newVal);
         }
 
@@ -72,14 +72,12 @@ public class Monkey {
         string addend = operation.Split(op).Last();
         long newVal = oldVal;
         long y = (long.TryParse(addend, out long valore)) ? valore : oldVal;
-        Console.Write("old: " + newVal + " "+op+" " + y);
         switch(op) {
             case "+": newVal += y;
                       break;
             case "*": newVal *= y;
                       break;
         }
-        Console.WriteLine(" = " + newVal);
         return newVal;
     }
 
